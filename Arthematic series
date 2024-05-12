@@ -1,0 +1,31 @@
+//{ Driver Code Starts
+#include <stdio.h>
+int nthTermOfAP(int a1, int a2, int n);
+
+
+
+// } Driver Code Ends
+//Back-end complete function Template for C
+int nthTermOfAP(int a1, int a2, int n) {
+        // calculating common difference
+        int difference = a2 - a1;
+        // calculating nth ternm
+        int nthTerm = a1 + (n - 1) * difference;
+        return nthTerm;
+}
+
+//{ Driver Code Starts.
+
+
+int main() {
+    int t;
+    scanf("%d",&t);
+    while (t--) {
+        int a1, a2, n;
+        scanf("%d",&a1);
+        scanf("%d",&a2);
+        scanf("%d",&n);
+        printf("%d\n",nthTermOfAP(a1, a2, n));
+    }
+}
+// } Driver Code Ends
