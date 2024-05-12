@@ -1,0 +1,11 @@
+
+#include <stdio.h>
+
+int addition(int A,int B);
+
+
+// } Driver Code Ends
+//Back-end complete function Template for C
+int addition(int A,int B){
+    return A+B;
+}
