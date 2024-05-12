@@ -1,0 +1,13 @@
+
+#include<bits/stdc++.h> 
+using namespace std; 
+
+// } Driver Code Ends
+class Solution
+{
+public:
+    int oppositeFaceOfDice(int N)
+    {
+        return 7 - N;
+    }
+}
