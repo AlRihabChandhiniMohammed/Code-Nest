@@ -1,7 +1,7 @@
 
 class Solution {
   public:
-    //Function to reverse the digits of a number.
+    
     long long reversDigits(long long num) 
     { 
         long long rev_num = 0; 
@@ -13,13 +13,13 @@ class Solution {
         return rev_num; 
     } 
   
-    /* Function to check whether the number is palindrome or not */
+
     bool isPalindrome(long long num) 
     { 
         return (reversDigits(num) == num); 
     } 
     
-    //Function to find palindrome by adding reverse of the number to itself.
+    
     long long isSumPalindrome(long long n){
         int count=0;
         while(!isPalindrome(n) && count<5)
